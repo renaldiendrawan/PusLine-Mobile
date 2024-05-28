@@ -1,0 +1,57 @@
+name: tolong_s_application1
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  cached_network_image: ^3.3.0
+  table_calendar: ^3.0.9
+  http: ^1.1.0
+  get: ^4.6.6
+  provider: ^6.1.1
+  email_otp: ^2.1.0
+  image_picker: ^0.8.4+4
+  flutter_launcher_icons: ^0.13.1
+  logger: ^1.1.0
+  # cached_network_image: ^3.1.0
+  shared_preferences: ^2.0.7
+  flutter_localizations:
+    sdk: flutter
+    
+  # date_time_picker: "^2.1.0"
+  google_fonts: ^6.2.0
+  flutter_riverpod: ^1.0.3
+  flutter_svg: ^2.0.9
+  intl: 0.19.0
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+    - assets/images/renaldi.jpeg
+    - assets/images/poli.png
+    - assets/images/ImunisasiBG.png
+    - assets/images/icon_artikel.png
+  fonts: 
+    - family: Poppins
+      fonts: 
+        - asset: assets/fonts/PoppinsSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/PoppinsBold.ttf
+          weight: 700
+        - asset: assets/fonts/PoppinsMedium.ttf
+          weight: 500
+
+flutter_launcher_icons:
+  image_path: "assets/images/pusline_logo.png"
+  android: "pusline_logo"
+  ios: true
+  web: false
+  adaptive_icon_background: "#ffffff"
+  adaptive_icon_foreground: "assets/images/pusline_logo.png"
+          
